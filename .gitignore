@@ -1,0 +1,10 @@
+node_modules/
+client/node_modules/
+client/dist/
+tasks.db
+*.db-shm
+*.db-wal
+.env
+.DS_Store
+tasks.db-shm
+tasks.db-wal
