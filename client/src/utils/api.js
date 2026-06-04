@@ -1,4 +1,4 @@
-const BASE = '/api/tasks';
+const BASE = (import.meta.env.VITE_API_URL ?? '') + '/api/tasks';
 
 async function request(url, options = {}) {
   const res = await fetch(url, {
